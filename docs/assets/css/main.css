@@ -72,6 +72,9 @@ body {
 .contact-image {
   height: 45px;
   width: 45px;
+}
+
+.contact-anchor {
   margin: 0 8px;
 }
 
