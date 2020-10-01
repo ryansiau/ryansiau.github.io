@@ -8,37 +8,57 @@
     <meta name="author" content="Ryan Siautama" />
     <meta name="description" content="Portofolio of Ryan Siautama" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet" />
   </head>
 
   <body>
-    <nav class="navbar">
-      
-    </nav>
+    <nav class="navbar"></nav>
 
-    <div class="wrapper" id="body-wrapper">
-
-      <div class="panel flex-vertical-center flex-horizontal-center" id="panel-landing">
-        <div class="">
-          <div class="text text-small">
-            Portofolio of
-          </div>
-          <div class="text text-jumbo text-bold">
-            Ryan Siautama
-          </div>
-          <div class="flex-horizontal-center" id="contacts">
-            <a class="contact-anchor" href="https://github.com/ryansiau"><img class="contact-image" src="assets/images/GitHub-Mark-Light-64px.png"></a>
-            <a class="contact-anchor" href="https://linkedin.com/in/ryan-siautama"><img class="contact-image" src="assets/images/LinkedIn-logo.png"></a>
-            <!-- <a><img></a> -->
+    <main>
+      <div class="wrapper" id="body-wrapper">
+        <div class="panel flex-vertical-center flex-horizontal-center" id="panel-landing">
+          <div class="">
+            <div class="text text-small">
+              <h3>Portofolio of</h3>
+            </div>
+            <div class="text text-jumbo text-bold">
+              <h1>Ryan Siautama</h1>
+            </div>
+            <div class="flex-horizontal-center" id="contacts">
+              <a class="contact-anchor" href="https://github.com/ryansiau">
+                <img class="contact-image image-circle" src="assets/images/GitHub-Mark-Light-64px.png" />
+              </a>
+              <a class="contact-anchor" href="https://linkedin.com/in/ryan-siautama image-circle">
+                <img class="contact-image" src="assets/images/LinkedIn-logo.png" />
+              </a>
+              <!-- <a><img></a> -->
+            </div>
           </div>
         </div>
+
+        <div class="panel" id="panel-about">
+          <div class="panel-title">
+            <h3>About</h3>
+          </div>
+          <div class="wrapper row" id="about-bio">
+            <div class="text text-medium text-light" id="bio-desc">
+              <p>
+                Undergraduate Computer Science student at Binus University. An active member of
+                <a class="inline-link" href="https://jollybee.binus.ac.id/">Jollybee</a>, Binus Programming Team.
+                <br />
+                Interested in problem solving, learning a different implementation.
+              </p>
+              <p>Other hobbies and interests: astrophysics, gaming, device personalization, table tennis</p>
+            </div>
+            <div class="profile-image">
+              <img class="image-circle" id="profile-photo" src="assets/images/pas-photo.jpg" />
+            </div>
+          </div>
+        </div>
+
+        <div class="panel" id="panel-project"></div>
       </div>
-
-      <div class="panel" id="panel-about">
-
-      </div>
-
-      <div class="panel" id="panel-project">
-
-      </div>
+    </main>
   </body>
 </html>

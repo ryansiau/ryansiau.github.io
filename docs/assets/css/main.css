@@ -9,7 +9,17 @@ body {
   background-color: white;
   padding: 0;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h3 {
+  margin: 0;
+  font-size: inherit;
+}
+
+a {
+  text-decoration: none;
 }
 
 #body-wrapper {
@@ -19,7 +29,7 @@ body {
 .panel {
   width: 100%;
   min-height: 768px;
-  padding: 64px 0;
+  padding: 64px 64px;
 }
 
 #panel-landing {
@@ -29,14 +39,21 @@ body {
 }
 
 #panel-about {
-  height: 100vh;
+  min-height: fit-content;
   color: #000000;
-  background-color: #9fe0ed;
+  background-color: #00c7b5;
 }
 
 #panel-project {
   height: 100vh;
   background-color: #98b8d6;
+}
+
+div.panel .panel-title {
+  font-size: 3em;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 .flex-vertical-center {
@@ -50,19 +67,31 @@ body {
 }
 
 .text-small {
-  font-size: 1.3em;
+  font-size: 1em;
 }
 
 .text-medium {
+  font-size: 1.4em;
+}
+
+.text-large {
   font-size: 2em;
 }
 
-.text-jumbo {
+.text-larger {
   font-size: 4em;
+}
+
+.text-jumbo {
+  font-size: 6em;
 }
 
 .text-bold {
   font-weight: bold;
+}
+
+.text-light {
+  font-weight: 25;
 }
 
 #contacts {
@@ -81,4 +110,33 @@ body {
 .navbar {
   position: fixed;
   top: 0;
+}
+
+.image-circle {
+  border-radius: 50%;
+}
+
+#profile-photo {
+  height: 300px;
+  width: 300px;
+}
+
+.inline-link {
+  /* font-weight: bold; */
+  color: #0014ff;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+#bio-desc {
+  text-align: right;
+  margin-right: 50px;
+}
+
+#about-bio {
+  max-width: 1000px;
 }
