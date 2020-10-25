@@ -13,7 +13,8 @@ body {
 }
 
 h1,
-h3 {
+h3,
+h4 {
   margin: 0;
   font-size: inherit;
 }
@@ -45,7 +46,7 @@ a {
 }
 
 #panel-project {
-  height: 100vh;
+  height: fit-content;
   background-color: #98b8d6;
 }
 
@@ -94,6 +95,14 @@ div.panel .panel-title {
   font-weight: 25;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.text-italic {
+  font-style: italic;
+}
+
 #contacts {
   margin: 50px 0;
 }
@@ -139,4 +148,97 @@ div.panel .panel-title {
 
 #about-bio {
   max-width: 1000px;
+}
+
+.project-grid-container {
+  width: 80%;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 50px;
+}
+
+.project-card {
+  height: 300px;
+  background-color: #84a4c2;
+  padding: 20px;
+}
+
+.project-header {
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.project-name {
+  font-weight: normal;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.project-logo {
+  height: 40px;
+  width: auto;
+}
+
+.project-description {
+  height: 100px;
+  padding: 0 10px;
+  overflow-y: auto;
+  overflow-wrap: break-word;
+}
+
+.project-status {
+  margin-left: 5px;
+  padding: 5px 10px;
+  height: 30px;
+  border-radius: 7px;
+  font-weight: bold;
+  width: fit-content;
+  margin-bottom: 10px;
+}
+
+.project-finished {
+  background-color: lightgreen;
+  color: green;
+}
+
+.project-unfinished {
+  background-color: orange;
+  color: orangered;
+}
+
+.project-description::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+.project-description::-webkit-scrollbar-track {
+  box-shadow: 0;
+}
+
+.project-description::-webkit-scrollbar-thumb {
+  background: #dddddd;
+  border-radius: 10px;
+}
+
+.project-description::-webkit-scrollbar-thumb:hover {
+  background: #aaaaaa;
+}
+
+.project-refs {
+  height: 40px;
+}
+
+.project-link {
+  background-color: #799bbb;
+  font-weight: normal;
+  color: black;
+  margin: 0 5px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 10px 0;
 }
