@@ -42,12 +42,12 @@ a {
 #panel-about {
   min-height: fit-content;
   color: #000000;
-  background-color: #00c7b5;
+  background-color: #0078f1;
 }
 
 #panel-project {
   height: fit-content;
-  background-color: #98b8d6;
+  background-color: #74a8d8;
 }
 
 div.panel .panel-title {
@@ -132,7 +132,7 @@ div.panel .panel-title {
 
 .inline-link {
   /* font-weight: bold; */
-  color: #0014ff;
+  color: #a8afff;
 }
 
 .row {
@@ -162,7 +162,7 @@ div.panel .panel-title {
 
 .project-card {
   height: 300px;
-  background-color: #84a4c2;
+  background-color: #487ee0;
   padding: 20px;
 }
 
@@ -220,12 +220,13 @@ div.panel .panel-title {
 }
 
 .project-description::-webkit-scrollbar-thumb {
-  background: #dddddd;
+  background: rgba(221, 221, 221, 0.5);
   border-radius: 10px;
 }
 
 .project-description::-webkit-scrollbar-thumb:hover {
-  background: #aaaaaa;
+  background: rgba(170, 170, 170, 0.7);
+  opacity: 0.5;
 }
 
 .project-refs {
@@ -233,7 +234,7 @@ div.panel .panel-title {
 }
 
 .project-link {
-  background-color: #799bbb;
+  background-color: #478ed2;
   font-weight: normal;
   color: black;
   margin: 0 5px;
