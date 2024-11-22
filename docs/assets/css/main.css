@@ -41,13 +41,14 @@ a {
 
 #panel-about {
   min-height: fit-content;
-  color: #000000;
+  color: #eeeeee;
   background-color: #0078f1;
 }
 
 #panel-project {
   height: fit-content;
-  background-color: #74a8d8;
+  color: #eeeeee;
+  background-color: #4ca8ff;
 }
 
 div.panel .panel-title {
@@ -162,8 +163,13 @@ div.panel .panel-title {
 
 .project-card {
   height: 300px;
-  background-color: #487ee0;
+  background-color: rgba(154, 117, 255, 0.171);
   padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 2px solid rgba(0, 20, 134, 0.3);
 }
 
 .project-header {
@@ -192,7 +198,7 @@ div.panel .panel-title {
 
 .project-status {
   margin-left: 5px;
-  padding: 5px 10px;
+  padding: 4px 10px;
   height: 30px;
   border-radius: 7px;
   font-weight: bold;
@@ -202,12 +208,14 @@ div.panel .panel-title {
 
 .project-finished {
   background-color: lightgreen;
-  color: green;
+  color: #004400;
+  border: 1px solid rgb(55, 109, 55);
 }
 
 .project-unfinished {
   background-color: orange;
-  color: orangered;
+  color: #571700;
+  border: 1px solid rgb(97, 63, 0);
 }
 
 .project-description::-webkit-scrollbar {
@@ -236,10 +244,14 @@ div.panel .panel-title {
 .project-link {
   background-color: #478ed2;
   font-weight: normal;
-  color: black;
+  color: rgb(255, 255, 255);
   margin: 0 5px;
   width: 100%;
   height: 100%;
   text-align: center;
   padding: 10px 0;
+}
+
+.greyed {
+  color: rgb(214, 214, 214);
 }
